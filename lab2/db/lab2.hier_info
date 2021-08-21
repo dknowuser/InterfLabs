@@ -1,0 +1,76 @@
+|lab2
+clk => clk.IN1
+data_msb[0] => data_msb[0].IN1
+data_msb[1] => data_msb[1].IN1
+data_msb[2] => data_msb[2].IN1
+data_msb[3] => data_msb[3].IN1
+data_msb[4] => data_msb[4].IN1
+data_msb[5] => data_msb[5].IN1
+data_msb[6] => data_msb[6].IN1
+data_msb[7] => data_msb[7].IN1
+sclk <= SPI_controller:my_SPI.sclk
+din <= SPI_controller:my_SPI.din
+sync <= SPI_controller:my_SPI.sync
+ldac <= SPI_controller:my_SPI.ldac
+clr <= SPI_controller:my_SPI.clr
+
+
+|lab2|clk_divider:divider
+clk => out_clk_inner.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+out_clk <= out_clk_inner.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2|SPI_controller:my_SPI
+clk => sclk.IN1
+clk => bit_number[0].CLK
+clk => bit_number[1].CLK
+clk => bit_number[2].CLK
+clk => bit_number[3].CLK
+clk => bit_number[4].CLK
+clk => start_sync.CLK
+clk => input_register[0].CLK
+clk => input_register[1].CLK
+clk => input_register[2].CLK
+clk => input_register[3].CLK
+clk => input_register[4].CLK
+clk => input_register[5].CLK
+clk => input_register[6].CLK
+clk => input_register[7].CLK
+clk => input_register[8].CLK
+clk => input_register[9].CLK
+clk => input_register[10].CLK
+clk => input_register[11].CLK
+clk => input_register[12].CLK
+clk => input_register[13].CLK
+clk => input_register[14].CLK
+clk => input_register[15].CLK
+clk => inner_ldac.CLK
+clk => update.CLK
+clk => start.CLK
+clk => hold_start.CLK
+clk => start_clocks[0].CLK
+clk => start_clocks[1].CLK
+clk => start_clocks[2].CLK
+data_msb[0] => input_register.DATAB
+data_msb[1] => input_register.DATAB
+data_msb[2] => input_register.DATAB
+data_msb[3] => input_register.DATAB
+data_msb[4] => input_register.DATAB
+data_msb[5] => input_register.DATAB
+data_msb[6] => input_register.DATAB
+data_msb[7] => input_register.DATAB
+sclk <= sclk.DB_MAX_OUTPUT_PORT_TYPE
+din <= input_register[15].DB_MAX_OUTPUT_PORT_TYPE
+sync <= sync.DB_MAX_OUTPUT_PORT_TYPE
+ldac <= inner_ldac.DB_MAX_OUTPUT_PORT_TYPE
+clr <= <VCC>
+
+

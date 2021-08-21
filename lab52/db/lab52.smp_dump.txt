@@ -1,0 +1,6 @@
+
+State Machine - |lab52|state
+Name state.start state.stop state.get_data 
+state.start 0 0 0 
+state.get_data 1 0 1 
+state.stop 1 1 0 

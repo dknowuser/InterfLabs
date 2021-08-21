@@ -1,0 +1,11 @@
+
+State Machine - |lab4|ADC_controller:adc_contr|state
+Name state.continious_read state.enter_continious_read state.config_reg_write_state state.communic_reg_config_state state.mode_reg_write_state state.communic_reg_mode_state state.wait_after_reset_state state.reset_state 
+state.reset_state 0 0 0 0 0 0 0 0 
+state.wait_after_reset_state 0 0 0 0 0 0 1 1 
+state.communic_reg_mode_state 0 0 0 0 0 1 0 1 
+state.mode_reg_write_state 0 0 0 0 1 0 0 1 
+state.communic_reg_config_state 0 0 0 1 0 0 0 1 
+state.config_reg_write_state 0 0 1 0 0 0 0 1 
+state.enter_continious_read 0 1 0 0 0 0 0 1 
+state.continious_read 1 0 0 0 0 0 0 1 

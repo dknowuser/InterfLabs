@@ -1,0 +1,133 @@
+# Reading C:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do lab4_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/study/Labs/interf/lab4 {E:/study/Labs/interf/lab4/lab4.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module lab4
+# -- Compiling module ADC_controller
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	lab4
+# 
+vsim work.lab4
+# vsim work.lab4 
+# Loading work.lab4
+# Loading work.clock_divider
+# Loading work.ADC_controller
+add wave -position end  sim:/lab4/clk
+add wave -position end  sim:/lab4/dout
+add wave -position end  sim:/lab4/reset
+add wave -position end  sim:/lab4/sclk
+add wave -position end  sim:/lab4/cs
+add wave -position end  sim:/lab4/din
+add wave -position end  sim:/lab4/leds
+force -freeze sim:/lab4/clk 1 0, 0 {12500 ps} -r {25 ns}
+force -freeze sim:/lab4/dout 1 0
+force -freeze sim:/lab4/reset 1 0
+run -all
+force -freeze sim:/lab4/dout 0 0
+run -all
+step -over
+# Next activity is in 12500 ps.
+step -over
+run -all
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 165
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 165
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 165
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 165
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 165
+force -freeze sim:/lab4/dout 1 0
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 165
+force -freeze sim:/lab4/dout 0 0
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 165
+force -freeze sim:/lab4/dout 1 0
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 165
+force -freeze sim:/lab4/dout 0 0
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 165
+run
+force -freeze sim:/lab4/dout 1 0
+run
+run
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 165
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 165
+force -freeze sim:/lab4/dout 0 0
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 165
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 165
+force -freeze sim:/lab4/dout 1 0
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 165
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 165
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172
+force -freeze sim:/lab4/dout 0 0
+run
+run
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172
+force -freeze sim:/lab4/dout 1 0
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172
+run -all
+# Break in Module ADC_controller at E:/study/Labs/interf/lab4/lab4.v line 172

@@ -1,0 +1,55 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\stud\5309\Marchuk\lab2\simulation\modelsim
+T_opt
+Z1 VUPEl=E9nnb9ZDh2T64G`;0
+Z2 04 14 4 work SPI_controller fast 0
+Z3 =1-74d4359ffea6-5f7c3c14-66-179c
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.5c;42
+vclk_divider
+Z7 IeNPf_UOR?oP]HCeAA@`@S2
+Z8 VodklaOEWM:1AQQVh<0caX3
+Z9 w1601977281
+Z10 8D:/stud/5309/Marchuk/lab2/lab2.v
+Z11 FD:/stud/5309/Marchuk/lab2/lab2.v
+L0 97
+Z12 OE;L;6.5c;42
+r1
+31
+Z13 o-vlog01compat -work work -L mtiAvm -L mtiOvm -L mtiUPF
+Z14 !s92 -vlog01compat -work work +incdir+D:/stud/5309/Marchuk/lab2 -L mtiAvm -L mtiOvm -L mtiUPF
+Z15 !s100 o_d7]O7jLl_299z]ai6nC2
+!s85 0
+vlab2
+Z16 I:dlC;NLD@2ELWJ3V:1CCa3
+Z17 Vij^X?:GcnVW2[Zf6aYCa=3
+R9
+R10
+R11
+L0 1
+R12
+r1
+31
+R13
+R14
+Z18 !s100 V>3GX@[Ozc3GhEH38RYSj2
+!s85 0
+vSPI_controller
+Z19 I7kX?azVloTV@=9zhDh@NL3
+Z20 VW2je]37k;LWf1P8Of2DJH2
+R9
+R10
+R11
+L0 9
+R12
+r1
+31
+R13
+R14
+Z21 n@s@p@i_controller
+Z22 !s100 =>jEbUc[@U8<7oaU:CeiS2
+!s85 0

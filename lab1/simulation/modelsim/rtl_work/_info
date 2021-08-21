@@ -1,0 +1,86 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\interf\lab1\simulation\modelsim
+vclk_divider
+!i10b 1
+!s100 ]A4nja3KPT2JcD7kXhOR@2
+ICXUncNi9BT>zW8WI;b1F;1
+VdWBbhodECUDD0JC75D0]90
+Z1 dE:\study\Labs\interf\lab1\simulation\modelsim
+Z2 w1600520236
+Z3 8E:/study/Labs/interf/lab1/lab1.v
+Z4 FE:/study/Labs/interf/lab1/lab1.v
+L0 73
+Z5 OV;L;10.1b;51
+r1
+!s85 0
+31
+Z6 !s108 1600520268.928000
+Z7 !s107 E:/study/Labs/interf/lab1/lab1.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/interf/lab1|E:/study/Labs/interf/lab1/lab1.v|
+!s101 -O0
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work +incdir+E:/study/Labs/interf/lab1 -O0
+vlab1
+!i10b 1
+!s100 JlZhB2@gFQToQM6mcQeY[0
+IZ=dOj<XhBzB]f]cA_n[m00
+Vk;>=S6lD:7jTCB<L4UTA=2
+R1
+R2
+R3
+R4
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10
+vpulse_generator
+!i10b 1
+!s100 DYmcMoNNF2D2V0O3a60M:1
+Ihk7Adn:BcFMaTk9g^GFVf0
+Vg:Eaomd3X52T9_HWYTiY=0
+R1
+R2
+R3
+R4
+L0 54
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10
+vSPI_controller
+!i10b 1
+!s100 d29DZQzn[lUn2O5>KKCn<2
+I8kM<MJjn;0HJR<@_Ma5KL2
+VH:l9RAV`dHo8BZ5dMDfaj3
+R1
+R2
+R3
+R4
+L0 12
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10
+n@s@p@i_controller

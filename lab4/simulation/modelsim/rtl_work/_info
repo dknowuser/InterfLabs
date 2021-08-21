@@ -1,0 +1,66 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\interf\lab4\simulation\modelsim
+vADC_controller
+!i10b 1
+!s100 T3aza`1CTWUU^:2AF4ae73
+II`gL]1o@RmSWBL8HJO4k70
+V`5`bklgi?XchEBn23zQMc0
+Z1 dE:\study\Labs\interf\lab4\simulation\modelsim
+Z2 w1603386206
+Z3 8E:/study/Labs/interf/lab4/lab4.v
+Z4 FE:/study/Labs/interf/lab4/lab4.v
+L0 9
+Z5 OV;L;10.1b;51
+r1
+!s85 0
+31
+Z6 !s108 1603389826.458000
+Z7 !s107 E:/study/Labs/interf/lab4/lab4.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/interf/lab4|E:/study/Labs/interf/lab4/lab4.v|
+!s101 -O0
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work +incdir+E:/study/Labs/interf/lab4 -O0
+n@a@d@c_controller
+vclock_divider
+!i10b 1
+!s100 ffnUB<>d[N_kOI2_F^4I]0
+I2YVkNVXL5[Q9[ZG[S6O^P3
+VmioMDWZX06ze<J6nKY3WJ1
+R1
+R2
+R3
+R4
+L0 207
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10
+vlab4
+!i10b 1
+!s100 `Qmb?kNRBmOQXU1BGEM:73
+ILioIKMgdWaJW=K`o=j`>J2
+VRZKLGkCXn`fCWI`Ze]JbR2
+R1
+R2
+R3
+R4
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10

@@ -1,0 +1,102 @@
+|lab3
+clk => clk.IN1
+sclk <= SPI_controller:my_SPI.sclk
+din <= SPI_controller:my_SPI.din
+sync <= SPI_controller:my_SPI.sync
+ldac <= SPI_controller:my_SPI.ldac
+clr <= SPI_controller:my_SPI.clr
+sin_freq[0] => sin_freq[0].IN1
+sin_freq[1] => sin_freq[1].IN1
+sin_freq[2] => sin_freq[2].IN1
+sin_freq[3] => sin_freq[3].IN1
+sin_freq[4] => sin_freq[4].IN1
+sin_freq[5] => sin_freq[5].IN1
+sin_freq[6] => sin_freq[6].IN1
+sin_freq[7] => sin_freq[7].IN1
+
+
+|lab3|clk_divider:divider
+clk => out_clk_inner.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+out_clk <= out_clk_inner.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|SPI_controller:my_SPI
+clk => sclk.IN1
+clk => input_register[0].CLK
+clk => input_register[1].CLK
+clk => input_register[2].CLK
+clk => input_register[3].CLK
+clk => input_register[4].CLK
+clk => input_register[5].CLK
+clk => input_register[6].CLK
+clk => input_register[7].CLK
+clk => input_register[8].CLK
+clk => input_register[9].CLK
+clk => input_register[10].CLK
+clk => input_register[11].CLK
+clk => input_register[12].CLK
+clk => input_register[13].CLK
+clk => input_register[14].CLK
+clk => input_register[15].CLK
+clk => table_num[0].CLK
+clk => table_num[1].CLK
+clk => table_num[2].CLK
+clk => table_num[3].CLK
+clk => table_num[4].CLK
+clk => table_num[5].CLK
+clk => table_num[6].CLK
+clk => table_num[7].CLK
+clk => table_num[8].CLK
+clk => table_num[9].CLK
+clk => bit_number[0].CLK
+clk => bit_number[1].CLK
+clk => bit_number[2].CLK
+clk => bit_number[3].CLK
+clk => bit_number[4].CLK
+clk => start_sync.CLK
+clk => inner_ldac.CLK
+clk => update.CLK
+clk => start.CLK
+clk => start_clocks[0].CLK
+clk => start_clocks[1].CLK
+clk => start_clocks[2].CLK
+clk => hold_start.CLK
+clk => sin_freq_cnt[0].CLK
+clk => sin_freq_cnt[1].CLK
+clk => sin_freq_cnt[2].CLK
+clk => sin_freq_cnt[3].CLK
+clk => sin_freq_cnt[4].CLK
+clk => sin_freq_cnt[5].CLK
+clk => sin_freq_cnt[6].CLK
+clk => sin_freq_cnt[7].CLK
+sclk <= sclk.DB_MAX_OUTPUT_PORT_TYPE
+din <= input_register[15].DB_MAX_OUTPUT_PORT_TYPE
+sync <= sync.DB_MAX_OUTPUT_PORT_TYPE
+ldac <= inner_ldac.DB_MAX_OUTPUT_PORT_TYPE
+clr <= <VCC>
+sin_freq[0] => sin_freq_cnt.DATAA
+sin_freq[0] => Equal2.IN31
+sin_freq[1] => sin_freq_cnt.DATAA
+sin_freq[1] => Equal2.IN30
+sin_freq[2] => sin_freq_cnt.DATAA
+sin_freq[2] => Equal2.IN29
+sin_freq[3] => sin_freq_cnt.DATAA
+sin_freq[3] => Equal2.IN28
+sin_freq[4] => sin_freq_cnt.DATAA
+sin_freq[4] => Equal2.IN27
+sin_freq[5] => sin_freq_cnt.DATAA
+sin_freq[5] => Equal2.IN26
+sin_freq[6] => sin_freq_cnt.DATAA
+sin_freq[6] => Equal2.IN25
+sin_freq[7] => sin_freq_cnt.DATAA
+sin_freq[7] => Equal2.IN24
+
+

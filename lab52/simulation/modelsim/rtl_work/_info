@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\study\Labs\interf\lab52\simulation\modelsim
+vlab52
+!i10b 1
+!s100 nQE==UhIWnYL5jmLMP2od0
+I:_e;]PQ?dD10fbh56igY83
+VF_Ej[RI_2VEgPk;Az0>j?3
+Z1 dE:\study\Labs\interf\lab52\simulation\modelsim
+w1605973080
+8E:/study/Labs/interf/lab52/lab52.v
+FE:/study/Labs/interf/lab52/lab52.v
+L0 1
+OV;L;10.1b;51
+r1
+!s85 0
+31
+!s108 1605973137.027000
+!s107 E:/study/Labs/interf/lab52/lab52.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/study/Labs/interf/lab52|E:/study/Labs/interf/lab52/lab52.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+E:/study/Labs/interf/lab52 -O0

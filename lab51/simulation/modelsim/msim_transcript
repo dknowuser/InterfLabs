@@ -1,0 +1,57 @@
+# Reading C:/altera/12.1sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do lab51_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\12.1sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/study/Labs/interf/lab51 {E:/study/Labs/interf/lab51/lab51.v}
+# Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+# -- Compiling module lab51
+# 
+# Top level modules:
+# 	lab51
+# 
+vsim work.lab51
+# vsim work.lab51 
+# Loading work.lab51
+add wave -position end  sim:/lab51/clk
+add wave -position end  sim:/lab51/reset_in
+add wave -position end  sim:/lab51/data_in
+add wave -position end  sim:/lab51/txe
+add wave -position end  sim:/lab51/rd
+add wave -position end  sim:/lab51/wr
+add wave -position end  sim:/lab51/reset_out
+add wave -position end  sim:/lab51/data_out
+force -freeze sim:/lab51/clk 1 0, 0 {12500 ps} -r {25 ns}
+force -freeze sim:/lab51/reset_in 0 0
+force -freeze sim:/lab51/data_in 10101010 0
+force -freeze sim:/lab51/txe 1 0
+run
+run
+force -freeze sim:/lab51/reset_in 1 0
+run
+force -freeze sim:/lab51/txe 0 0
+run
+run
+run
+force -freeze sim:/lab51/data_in 01010101 0
+run
+run
+run
+run
+force -freeze sim:/lab51/txe 1 0
+run
+run
+force -freeze sim:/lab51/txe 0 0
+force -freeze sim:/lab51/data_in 11111111 0
+run
+run
+run
+run
+run
